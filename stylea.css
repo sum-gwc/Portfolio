@@ -1,0 +1,85 @@
+/* Background */
+body {
+	background-image: url("bg.jpg");
+}
+
+/* Banner */
+.ban {
+  width: 100%;
+  height: auto;
+}
+
+/* Navigation Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	background-color: rgb(158,213,216);
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+li {
+	display: inline;
+}
+a {
+	padding: 16px;
+	text-decoration: none;
+	font-family: 'Bentham';
+	color: black;
+}
+li a:hover{
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Heading */
+h1 {
+	font-family: 'Rouge Script';
+	color: white;
+	font-weight: normal;
+	font-size: 100px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	background-color: rgb(243,131,111);
+	border-radius: 8px;
+	border: 5px solid white;
+	width: 360px;
+}
+
+/* Text */
+h2 {
+	font-family: 'Rouge Script';
+	color: white;
+	font-weight: normal;
+	font-size: 50px;
+	padding: 20px;
+	margin: 0px;
+}
+p {
+	font-weight: normal;
+	font-size: 25px;
+	font-family: 'Bentham';
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin: 0px;
+	
+}
+.bio {
+	background-color: rgb(158,213,216);
+	border-radius: 8px;
+	border: 5px solid white;
+}
+.likes {
+	background-color: rgb(243,131,111);
+	border-radius: 8px;
+	border: 5px solid white;
+}
+.facts {
+	background-color: rgb(158,213,216);
+	border-radius: 8px;
+	border: 5px solid white;
+}

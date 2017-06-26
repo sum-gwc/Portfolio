@@ -1,0 +1,96 @@
+/* Background */
+body {
+	background-image: url("bg.jpg");
+}
+
+/* Banner */
+.ban {
+	width: 100%;
+	height: auto;
+}
+
+/* Navigation Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	background-color: rgb(158,213,216);
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+li {
+	display: inline;
+}
+a {
+	padding: 16px;
+	text-decoration: none;
+	font-family: 'Bentham';
+	color: black;
+}
+li a:hover{
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Main Info */
+.text {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.main {
+	padding-top: 20px;
+	display: table;
+	width: 100%;
+}
+.pic {
+	width: 100%;
+	height: auto;
+}
+.col {
+	display: table-cell;
+	background-color: rgb(243,131,111);
+}
+.text {
+	display: table-cell;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	background-color: rgb(158,213,216);
+	width: 50%;
+	height: auto;
+}
+@media only screen and (max-width: 600px) {
+	.col {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	.text {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+h1 {
+	font-family: 'Rouge Script';
+	color: white;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: .7;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+p {
+	vertical-align: top;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: normal;
+	font-size: 18px;
+	font-family: 'Bentham';
+	margin-bottom: 10px;
+}
+
+
+
